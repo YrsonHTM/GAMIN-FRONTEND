@@ -13,7 +13,7 @@ import { SpinnerInterceptor } from './interceptors/spinner.interceptor';
 @NgModule({
   declarations: [
     AppComponent,
-    SpinnerComponent
+    SpinnerComponent,
   ],
   imports: [
     BrowserModule,
