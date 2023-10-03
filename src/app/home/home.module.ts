@@ -5,8 +5,8 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './pages/home/home.component';
 import { MaterialModule } from '../material/material.module';
 import { FormsModule } from '@angular/forms';
+import { ButtonModule } from 'primeng/button';
 import { LayoutModule } from '../layout/layout.module';
-
 
 
 @NgModule({
@@ -18,7 +18,8 @@ import { LayoutModule } from '../layout/layout.module';
     HomeRoutingModule,
     MaterialModule,
     FormsModule,
-    LayoutModule
+    LayoutModule,
+    ButtonModule
   ]
 })
 export class HomeModule { }
