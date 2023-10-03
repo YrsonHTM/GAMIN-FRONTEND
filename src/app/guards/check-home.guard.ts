@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ActivatedRouteSnapshot, CanActivate, RouterStateSnapshot, UrlTree } from '@angular/router';
+import { ActivatedRouteSnapshot, RouterStateSnapshot, UrlTree } from '@angular/router';
 import { Observable } from 'rxjs';
 import { AurhService } from '../auth/services/aurh.service';
 import { logedUser } from '../auth/interfaces/logedUser.iinterface';
@@ -7,7 +7,7 @@ import { logedUser } from '../auth/interfaces/logedUser.iinterface';
 @Injectable({
   providedIn: 'root'
 })
-export class CheckHomeGuard implements CanActivate {
+export class CheckHomeGuard  {
 
   constructor(private authService:AurhService) { }
 
